@@ -3,9 +3,9 @@ describe('Test case for cityMaxBounds', () => {
   it('should return null if the map is not displayed', () => {
 
     const cityMaxBounds = [
-      [14.083551, 100.60797], 
-      [14.066234,100.608141] ];
-
+      [36.725005, -87.579122], // northwest
+      [35.541600, -86.097066], // southeast
+    ];
     const map = null;
 
     const result = (cityMaxBounds, map);
@@ -16,12 +16,16 @@ describe('Test case for cityMaxBounds', () => {
   // **** กรณี Map ขึ้น **** //
   it('should return done if the map is displayed', () => {
  
-    const center = [14.070694801353117, 100.60479292617921];
-    const map = [14.070694801353117, 100.60479292617921];
+    const center = [36.166512, -86.781581];
+    const map_center = [36.166512, -86.781581];
 
-    expect(center).toEqual(map);
+    expect(center).toEqual(map_center);
   });
-  
+
+  function getDistance(a,b){
+    c = b - a;
+    return c;
+  }
 // การคิดระยะห่างระยะทาง
   function calculateDistance(lat1, lon1, lat2, lon2) {
     

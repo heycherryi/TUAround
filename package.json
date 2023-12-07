@@ -36,9 +36,11 @@
     "test": "TZ=America/Chicago react-scripts test",
     "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache",
     "eject": "react-scripts eject",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "jest": "npx jest TUMarkers.test.js",
+    "map" : "npx jest TransitMap.test.js"
   },
-  "eslintConfig": {
+  "eslintConfig": { 
     "extends": [
       "react-app",
       "react-app/jest"
