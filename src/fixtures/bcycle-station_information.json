@@ -1,0 +1,38 @@
+
+{
+  "ttl": 2,
+  "data": {
+    "station": [
+      {
+        "lon": 14.07252088539769, 
+        "lat": 100.60239319778908,
+        "rental_uris": {
+          "ios": null,
+          "android": null
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "204 Commerce Ave.",
+        "name": "Commerce & 2nd Ave N",
+        "station_id": "bcycle_nashville_2162"
+      },
+      {
+        "lon": 14.07208379728031, 
+        "lat": 100.60094480499288,
+        "rental_uris": {
+          "ios": null,
+          "android": null
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "425 Church St.",
+        "name": "Church St between 4th & 5th Ave N",
+        "station_id": "bcycle_nashville_2165"
+      }
+    
+      
+    ]
+  },
+  "version": "1.1",
+  "last_updated": 1658600377
+}
+
+

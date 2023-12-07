@@ -1,0 +1,38 @@
+{
+  "ttl": 2,
+  "last_updated": 1658600403,
+  "data": {
+    "stations": [
+      {
+        "is_returning": 1,
+        "is_renting": 1,
+        "is_installed": 1,
+        "num_docks_available": 7,
+        "num_bikes_available": 8,
+        "last_reported": 1658600403,
+        "num_bikes_available_types": {
+          "electric": 8,
+          "smart": 0,
+          "classic": 0
+        },
+        "station_id": "bcycle_nashville_2162"
+      },
+      {
+        "is_returning": 1,
+        "is_renting": 1,
+        "is_installed": 1,
+        "num_docks_available": 2,
+        "num_bikes_available": 7,
+        "last_reported": 1658600403,
+        "num_bikes_available_types": {
+          "electric": 7,
+          "smart": 0,
+          "classic": 0
+        },
+        "station_id": "bcycle_nashville_2165"
+      }
+      
+    ]
+  },
+  "version": "1.1"
+}
